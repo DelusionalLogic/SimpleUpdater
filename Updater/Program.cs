@@ -28,6 +28,7 @@ namespace Updater
             {
                 source.execute().Wait();
             }
+            Console.WriteLine();
             Console.WriteLine("Update complete");
             Console.Read();
         }
